@@ -36,9 +36,7 @@ exports.addProduct = (req, res) => {
         id,
         name,
         category,
-        price,  
-        manufacturingDate: mfgDate,
-        expiryDate      
+        price   
     };
     data.products.push(product);
     writeData(data);
